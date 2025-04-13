@@ -4,3 +4,12 @@
     padding: 0;
     font-family: 'Space Grotesk', sans-serif;
 }
+
+body {
+    min-height: 100%;
+    min-width: 100%;
+    background-color: #fff;
+    padding: 60px 100px;
+    display: flex;
+    flex-direction: column;
+}
