@@ -9,10 +9,12 @@ export interface HeadingProps {
     children: string;
     fontColor: string;
     bgColor: string;
+    fontSize: string;
 }
 
 export interface CardServiceProps {
     imageLink: string;
     fontColorCard: string;
     illustration: string
+    bgColorCard: string
 }
