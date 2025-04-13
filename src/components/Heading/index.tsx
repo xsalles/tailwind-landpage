@@ -6,7 +6,7 @@ export default function Heading({
     bgColor,
 }: HeadingProps) {
   return (
-    <h2 className={`${fontColor} ${bgColor} inline-block px-[7px] rounded-[7px] text-[40px] font-medium `}>
+    <h2 className={`${fontColor} ${bgColor} inline-block px-2 rounded-[7px] text-[40px] font-medium`}>
       {children}
     </h2>
   )
