@@ -10,3 +10,9 @@ export interface HeadingProps {
     fontColor: string;
     bgColor: string;
 }
+
+export interface CardServiceProps {
+    imageLink: string;
+    fontColorCard: string;
+    illustration: string
+}
