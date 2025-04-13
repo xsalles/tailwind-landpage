@@ -1,6 +1,7 @@
 import "../../tailwind.css"
 import CompanySection from "../sections/company"
 import HeroSection from '../sections/hero'
+import ProposalSection from "../sections/proposal"
 import ServicesSection from "../sections/services"
 
 export default function Landpage() {
@@ -9,6 +10,7 @@ export default function Landpage() {
         <HeroSection />
         <CompanySection />
         <ServicesSection />
+        <ProposalSection/>
     </main>
   )
 }
