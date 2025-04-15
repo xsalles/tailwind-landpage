@@ -26,6 +26,8 @@ import whiteGreen from "../assets/icons/links/Icon-white-green.svg"
 import logoWhite from "../assets/icons/logos/logoWhite.svg"
 import logoBlack from "../assets/icons/logos/Logo-black.svg"
 
+import linkedin from "../assets/illustrations/people/linkedin.svg"
+
 export const logos = {
     logoWhite,
     logoBlack
@@ -43,7 +45,8 @@ export const iconsCompany = {
     hubspot,
     netflix,
     notion,
-    zoom
+    zoom,
+    linkedin
 }
 
 export const iconsDropdown = {

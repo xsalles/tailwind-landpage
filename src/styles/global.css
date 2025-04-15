@@ -1,23 +1,26 @@
 * {
-    margin: 0;
-    box-sizing: border-box;
-    padding: 0;
-    font-family: 'Space Grotesk', sans-serif;
-  }
-  
-  body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    background-color: #fff;
-    padding: 60px 100px;
-  }
-  
-  #root {
-    display: flex;
-    flex-direction: column;
-    gap: 80px;
-    min-width: 100%;
-    background-color: #fff;
-  }
-  
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #fff;
+  padding: 60px 100px;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  min-width: 100%;
+  background-color: #fff;
+}
+
+button a {
+  cursor: pointer;
+}

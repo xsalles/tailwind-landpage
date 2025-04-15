@@ -1,4 +1,6 @@
 import "../../tailwind.css";
+import CardTeam from "../components/CardTeam";
+import { illustrationsPeople } from "../constants/illustrations";
 import CaseStudiesSection from "../sections/caseStudies";
 import CompanySection from "../sections/company";
 import HeroSection from "../sections/hero";
@@ -15,6 +17,12 @@ export default function Landpage() {
       <ProposalSection />
       <CaseStudiesSection />
       <ProcessSection />
+      <CardTeam
+        description="dasdsad"
+        name="dsada"
+        photo={illustrationsPeople.brian}
+        position="Ceo ne pai"
+      />
     </main>
   );
 }

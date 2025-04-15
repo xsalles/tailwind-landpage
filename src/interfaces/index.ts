@@ -24,3 +24,10 @@ export interface FaqProps {
     title: string;
     description: string;
 }
+
+export interface CardTeamProps {
+    photo: string;
+    description: string;
+    name: string;
+    position: string;
+}
