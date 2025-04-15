@@ -18,3 +18,9 @@ export interface CardServiceProps {
     illustration: string
     bgColorCard: string
 }
+
+export interface FaqProps {
+    number: string;
+    title: string;
+    description: string;
+}
