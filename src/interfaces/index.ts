@@ -31,3 +31,9 @@ export interface CardTeamProps {
     name: string;
     position: string;
 }
+
+export interface CommentProps {
+    comment: string;
+    client: string;
+    position: string;
+}

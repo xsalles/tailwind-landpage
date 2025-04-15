@@ -1,4 +1,5 @@
 import "../../tailwind.css";
+import Comment from "../components/Comment";
 import CaseStudiesSection from "../sections/caseStudies";
 import CompanySection from "../sections/company";
 import HeroSection from "../sections/hero";
@@ -17,6 +18,7 @@ export default function Landpage() {
       <CaseStudiesSection />
       <ProcessSection />
       <TeamSection />
+      <Comment comment="This is a comment" client="John Doe" position="Developer"/>
     </main>
   );
 }
