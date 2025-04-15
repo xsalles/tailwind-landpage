@@ -49,7 +49,7 @@ export default function Faq({ number, title, description }: FaqProps) {
       </div>
 
       {isOpen && (
-        <div className="flex gap-7.5 flex-col">
+        <div className="flex gap-7.5 flex-col w-full">
           <hr className="w-full h-[1px]" />
           <p>{description}</p>
         </div>
