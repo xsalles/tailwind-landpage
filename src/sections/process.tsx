@@ -11,11 +11,10 @@ export default function ProcessSection() {
           bgColor="bg-[#B9FF66]"
           fontColor="text-black"
         >
-          Services
+          Our Working Process
         </Heading>
         <p className="w-[580px]">
-          At our digital marketing agency, we offer a range of services to help
-          businesses grow and succeed online. These services include:
+        Meet the skilled and experienced team behind our successful digital marketing strategies
         </p>
       </div>
       <div className="flex flex-col h-auto w-full gap-7.5">

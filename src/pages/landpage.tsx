@@ -1,12 +1,11 @@
 import "../../tailwind.css";
-import CardTeam from "../components/CardTeam";
-import { illustrationsPeople } from "../constants/illustrations";
 import CaseStudiesSection from "../sections/caseStudies";
 import CompanySection from "../sections/company";
 import HeroSection from "../sections/hero";
 import ProcessSection from "../sections/process";
 import ProposalSection from "../sections/proposal";
 import ServicesSection from "../sections/services";
+import TeamSection from "../sections/team";
 
 export default function Landpage() {
   return (
@@ -17,12 +16,7 @@ export default function Landpage() {
       <ProposalSection />
       <CaseStudiesSection />
       <ProcessSection />
-      <CardTeam
-        description="dasdsad"
-        name="dsada"
-        photo={illustrationsPeople.brian}
-        position="Ceo ne pai"
-      />
+      <TeamSection />
     </main>
   );
 }

@@ -1,5 +1,5 @@
 import { iconsLinks } from "../constants/icons";
-import { illustrationsServices } from "../constants/illustrations";
+import { illustrationsPeople, illustrationsServices } from "../constants/illustrations";
 
 export const services = [
   {
@@ -107,4 +107,49 @@ export const faqData = [
     description:
       "We continuously refine strategies based on data, feedback, and market shifts to ensure long-term growth and effectiveness.",
   },
+];
+
+export const teamMembers = [
+  {
+    id: 1,
+    name: "John Smith",
+    position: "CEO and Founder",
+    description: "10+ years of experience in digital marketing. Expertise in SEO, PPC, and content strategy.",
+    photo: illustrationsPeople.john
+  },
+  {
+    id: 2,
+    name: "Jane Doe",
+    position: "Director of Operations",
+    description: "7+ years of experience in project management and team leadership. Strong organizational and communication skills.",
+    photo: illustrationsPeople.jane
+  },
+  {
+    id: 3,
+    name: "Michael Brown",
+    position: "Senior SEO Specialist",
+    description: "5+ years of experience in SEO and content creation. Proficient in keyword research and on-page optimization.",
+    photo: illustrationsPeople.michael
+  },
+  {
+    id: 4,
+    name: "Emily Johnson",
+    position: "PPC Manager",
+    description: "3+ years of experience in paid search advertising. Skilled in campaign management and performance analysis.",
+    photo: illustrationsPeople.emily
+  },
+  {
+    id: 5,
+    name: "Brian Williams",
+    position: "Social Media Specialist",
+    description: "4+ years of experience in social media marketing. Proficient in creating and scheduling content, analyzing metrics, and building engagement.",
+    photo: illustrationsPeople.brian
+  },
+  {
+    id: 6,
+    name: "Sarah Kim",
+    position: "Content Creator",
+    description: "2+ years of experience in writing and editing. Skilled in creating compelling, SEO-optimized content for various industries.",
+    photo: illustrationsPeople.sarah
+  }
 ];
