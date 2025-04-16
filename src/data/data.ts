@@ -1,5 +1,8 @@
 import { iconsLinks } from "../constants/icons";
-import { illustrationsPeople, illustrationsServices } from "../constants/illustrations";
+import {
+  illustrationsPeople,
+  illustrationsServices,
+} from "../constants/illustrations";
 
 export const services = [
   {
@@ -8,7 +11,7 @@ export const services = [
     illustration: illustrationsServices.magnifier,
     arrowIcon: iconsLinks.blackGreen,
     bgColor: "bg-[#F3F3F3]",
-    fontColor: "text-black", 
+    fontColor: "text-black",
   },
   {
     id: 2,
@@ -16,7 +19,7 @@ export const services = [
     illustration: illustrationsServices.click,
     arrowIcon: iconsLinks.blackGreen,
     bgColor: "bg-[#B9FF66]",
-    fontColor: "text-black", 
+    fontColor: "text-black",
   },
   {
     id: 3,
@@ -32,7 +35,7 @@ export const services = [
     illustration: illustrationsServices.email,
     arrowIcon: iconsLinks.blackGreen,
     bgColor: "bg-[#F3F3F3]",
-    fontColor: "text-black", 
+    fontColor: "text-black",
   },
   {
     id: 5,
@@ -40,7 +43,7 @@ export const services = [
     illustration: illustrationsServices.content,
     arrowIcon: iconsLinks.blackGreen,
     bgColor: "bg-[#B9FF66]",
-    fontColor: "text-black", 
+    fontColor: "text-black",
   },
   {
     id: 6,
@@ -48,7 +51,7 @@ export const services = [
     illustration: illustrationsServices.analytics,
     arrowIcon: iconsLinks.whiteBlack,
     bgColor: "bg-[#191A23]",
-    fontColor: "text-white", 
+    fontColor: "text-white",
   },
 ];
 
@@ -114,42 +117,69 @@ export const teamMembers = [
     id: 1,
     name: "John Smith",
     position: "CEO and Founder",
-    description: "10+ years of experience in digital marketing. Expertise in SEO, PPC, and content strategy.",
-    photo: illustrationsPeople.john
+    description:
+      "10+ years of experience in digital marketing. Expertise in SEO, PPC, and content strategy.",
+    photo: illustrationsPeople.john,
   },
   {
     id: 2,
     name: "Jane Doe",
     position: "Director of Operations",
-    description: "7+ years of experience in project management and team leadership. Strong organizational and communication skills.",
-    photo: illustrationsPeople.jane
+    description:
+      "7+ years of experience in project management and team leadership. Strong organizational and communication skills.",
+    photo: illustrationsPeople.jane,
   },
   {
     id: 3,
     name: "Michael Brown",
     position: "Senior SEO Specialist",
-    description: "5+ years of experience in SEO and content creation. Proficient in keyword research and on-page optimization.",
-    photo: illustrationsPeople.michael
+    description:
+      "5+ years of experience in SEO and content creation. Proficient in keyword research and on-page optimization.",
+    photo: illustrationsPeople.michael,
   },
   {
     id: 4,
     name: "Emily Johnson",
     position: "PPC Manager",
-    description: "3+ years of experience in paid search advertising. Skilled in campaign management and performance analysis.",
-    photo: illustrationsPeople.emily
+    description:
+      "3+ years of experience in paid search advertising. Skilled in campaign management and performance analysis.",
+    photo: illustrationsPeople.emily,
   },
   {
     id: 5,
     name: "Brian Williams",
     position: "Social Media Specialist",
-    description: "4+ years of experience in social media marketing. Proficient in creating and scheduling content, analyzing metrics, and building engagement.",
-    photo: illustrationsPeople.brian
+    description:
+      "4+ years of experience in social media marketing. Proficient in creating and scheduling content, analyzing metrics, and building engagement.",
+    photo: illustrationsPeople.brian,
   },
   {
     id: 6,
     name: "Sarah Kim",
     position: "Content Creator",
-    description: "2+ years of experience in writing and editing. Skilled in creating compelling, SEO-optimized content for various industries.",
-    photo: illustrationsPeople.sarah
-  }
+    description:
+      "2+ years of experience in writing and editing. Skilled in creating compelling, SEO-optimized content for various industries.",
+    photo: illustrationsPeople.sarah,
+  },
+];
+
+export const commentsData = [
+  {
+    comment:
+      "We have been working with Positivus for the past year and have seen a significant increase in website traffic and leads as a result of their efforts. The team is professional, responsive, and truly cares about the success of our business. We highly recommend Positivus to any company looking to grow their online presence.",
+    client: "John Smith",
+    position: "Marketing Director at XYZ Corp",
+  },
+  {
+    comment:
+      "The team at Positivus has been instrumental in helping us achieve our marketing goals. Their expertise in SEO and PPC has driven measurable results, and their dedication to our success is unmatched.",
+    client: "Jane Doe",
+    position: "CEO at ABC Ltd.",
+  },
+  {
+    comment:
+      "Positivus has exceeded our expectations with their innovative strategies and attention to detail. Their social media campaigns have significantly boosted our brand awareness and engagement.",
+    client: "Michael Brown",
+    position: "CTO at DEF Inc.",
+  },
 ];
