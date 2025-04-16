@@ -17,7 +17,7 @@ export default function ContactUsSection() {
           Connect with Us: Let's Discuss Your Digital Marketing Needs
         </p>
       </div>
-      <div className="flex !p-[60px_0_80px_100px] bg-[#F3F3F3] justify-between !mt-20">
+      <div className="flex !p-[60px_0_80px_100px] bg-[#F3F3F3] justify-between !mt-20 rounded-[45px]">
         <Form />
         <div className="relative w-[600px] h-[600px]">
           <img

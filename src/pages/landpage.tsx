@@ -1,6 +1,4 @@
 import "../../tailwind.css";
-import Form from "../components/Form";
-
 import CaseStudiesSection from "../sections/caseStudies";
 import CompanySection from "../sections/company";
 import ContactUsSection from "../sections/contactUs";
