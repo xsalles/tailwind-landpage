@@ -10,7 +10,7 @@ body {
   flex-direction: column;
   min-height: 100vh;
   background-color: #fff;
-  padding: 60px 100px;
+  padding: 60px 100px 0 100px;
 }
 
 #root {
@@ -21,10 +21,14 @@ body {
   background-color: #fff;
 }
 
-button a {
+button, a {
   cursor: pointer;
 }
 
 textarea {
   resize: vertical;
+}
+
+input {
+  outline: none;
 }
