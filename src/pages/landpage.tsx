@@ -3,6 +3,7 @@ import Form from "../components/Form";
 
 import CaseStudiesSection from "../sections/caseStudies";
 import CompanySection from "../sections/company";
+import ContactUsSection from "../sections/contactUs";
 import HeroSection from "../sections/hero";
 import ProcessSection from "../sections/process";
 import ProposalSection from "../sections/proposal";
@@ -21,7 +22,7 @@ export default function Landpage() {
       <ProcessSection />
       <TeamSection />
       <TestimonialsSection />
-      <Form />
+      <ContactUsSection />
     </main>
   );
 }

@@ -2,7 +2,7 @@ import Button from "../Button";
 
 export default function Form() {
   return (
-    <>
+    <div className="flex flex-col gap-10">
       <div className="flex gap-5">
         <div className="flex gap-3.5">
           <input
@@ -27,7 +27,7 @@ export default function Form() {
         </div>
       </div>
 
-      <form action="" className="flex flex-col gap-5 mt-10">
+      <form action="" className="flex flex-col gap-5 mt-10 w-[556px]">
         <div className="flex flex-col gap-1">
           <label htmlFor="name">Name</label>
           <input
@@ -68,6 +68,6 @@ export default function Form() {
           Send Message
         </Button>
       </form>
-    </>
+    </div>
   );
 }
