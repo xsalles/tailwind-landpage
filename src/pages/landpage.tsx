@@ -1,5 +1,5 @@
 import "../../tailwind.css";
-import Carrossel from "../components/Carrossel";
+
 import CaseStudiesSection from "../sections/caseStudies";
 import CompanySection from "../sections/company";
 import HeroSection from "../sections/hero";
@@ -7,6 +7,7 @@ import ProcessSection from "../sections/process";
 import ProposalSection from "../sections/proposal";
 import ServicesSection from "../sections/services";
 import TeamSection from "../sections/team";
+import TestimonialsSection from "../sections/testimonials";
 
 export default function Landpage() {
   return (
@@ -18,9 +19,7 @@ export default function Landpage() {
       <CaseStudiesSection />
       <ProcessSection />
       <TeamSection />
-      <div className="w-full flex justify-center items-center">
-        <Carrossel />
-      </div>
+      <TestimonialsSection />
     </main>
   );
 }

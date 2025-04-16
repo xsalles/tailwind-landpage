@@ -8,26 +8,26 @@ import "swiper/css/pagination";
 
 export default function Carrossel() {
   return (
-    <Swiper
-      modules={[Navigation, Pagination]}
-      navigation
-      pagination={{ clickable: true
+    <div className="relative w-full max-w-[1250px] mx-auto">
+      <Swiper
+        modules={[Navigation]}
+        navigation
 
-       }}
-      spaceBetween={50}
-      slidesPerView={1}
-      className="w-full max-w-4xl mx-auto"
-    >
+        spaceBetween={0} 
+        slidesPerView={1.8} 
+        centeredSlides={true} 
+        className="w-full"
+      >
         {commentsData.map((comment, index) => (
-      <SwiperSlide key={index} className="flex bg-amber-950">
-          <Comment
-            client={comment.client}
-            comment={comment.comment}
-            position={comment.position}
-            
-          />
-      </SwiperSlide>
+          <SwiperSlide key={index} className="flex justify-center">
+            <Comment
+              client={comment.client}
+              comment={comment.comment}
+              position={comment.position}
+            />
+          </SwiperSlide>
         ))}
-    </Swiper>
+      </Swiper>
+    </div>
   );
 }
