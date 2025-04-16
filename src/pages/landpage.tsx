@@ -1,4 +1,5 @@
 import "../../tailwind.css";
+import Form from "../components/Form";
 
 import CaseStudiesSection from "../sections/caseStudies";
 import CompanySection from "../sections/company";
@@ -20,6 +21,7 @@ export default function Landpage() {
       <ProcessSection />
       <TeamSection />
       <TestimonialsSection />
+      <Form />
     </main>
   );
 }

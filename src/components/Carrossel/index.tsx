@@ -1,10 +1,8 @@
-import { Navigation, Pagination } from "swiper/modules";
+import { Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { commentsData } from "../../data/data";
 import Comment from "../Comment";
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
+
 
 export default function Carrossel() {
   return (
